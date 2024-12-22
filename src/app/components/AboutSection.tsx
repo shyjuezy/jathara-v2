@@ -5,14 +5,15 @@ export function AboutSection() {
     <section className="mt-16 py-16 bg-white">
       <div className="container mx-auto px-8">
         <div className="flex flex-col md:flex-row md:items-center gap-12">
-          <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-lg">
+          <div className="relative w-full aspect-square md:aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
             <Image
               src="/about.jpg"
               alt="Biryani on a pot"
               className="object-cover"
-              // blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mMsqAcAAWUA8f6XWZkAAAAASUVORK5CYII="
-              // placeholder="blur" 
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mMsqAcAAWUA8f6XWZkAAAAASUVORK5CYII="
+              placeholder="blur"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               priority
             />
           </div>
