@@ -10,8 +10,8 @@ export function AboutSection() {
               src="/about.jpg"
               alt="Biryani on a pot"
               className="object-cover"
-              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mMsqAcAAWUA8f6XWZkAAAAASUVORK5CYII="
-              placeholder="blur"
+              // blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mMsqAcAAWUA8f6XWZkAAAAASUVORK5CYII="
+              // placeholder="blur" 
               fill
               priority
             />
