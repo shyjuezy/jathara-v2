@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 export function AboutSection() {
   return (
@@ -6,7 +6,7 @@ export function AboutSection() {
       <div className="container mx-auto px-8">
         <div className="flex flex-col md:flex-row md:items-center gap-12">
           <div className="hidden md:block relative w-full aspect-square md:aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-            <Image
+            {/* <Image
               src="/about.jpg"
               alt="Biryani on a pot"
               className="object-cover w-full h-full"
@@ -15,7 +15,8 @@ export function AboutSection() {
               quality={75}
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
-            />
+            /> */}
+            <h3>About Section</h3>
           </div>
           <div className="w-full">
             <h2 className="text-3xl font-bold text-center md:text-left text-gray-800 mb-8 font-serif">
