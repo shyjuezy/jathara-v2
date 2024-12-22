@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 export function AboutSection() {
@@ -22,14 +23,15 @@ export function AboutSection() {
               Our Commitment to You
             </h2>
             <p className="text-xl text-gray-600 text-center md:text-left max-w-3xl">
-              We are excited to provide you with much better, healthier food options. At Jathara, we believe that
-              nutritious meals can also be delicious. Our chefs use fresh, locally-sourced ingredients to create dishes
-              that not only taste great but also contribute to your overall well-being.
+              We are excited to provide you with much better, healthier food
+              options. At Jathara, we believe that nutritious meals can also be
+              delicious. Our chefs use fresh, locally-sourced ingredients to
+              create dishes that not only taste great but also contribute to
+              your overall well-being.
             </p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-
